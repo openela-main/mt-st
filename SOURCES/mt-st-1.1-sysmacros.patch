@@ -1,0 +1,11 @@
+diff -Nur mt-st-1.1_old/mt.c mt-st-1.1/mt.c
+--- mt-st-1.1_old/mt.c	2018-08-09 12:47:25.997552769 -0400
++++ mt-st-1.1/mt.c	2018-08-09 12:49:02.764150055 -0400
+@@ -19,6 +19,7 @@
+ #include <errno.h>
+ #include <fcntl.h>
+ #include <sys/types.h>
++#include <sys/sysmacros.h>
+ #include <sys/ioctl.h>
+ #include <sys/stat.h>
+ #include <sys/utsname.h>
